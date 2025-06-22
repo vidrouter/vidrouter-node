@@ -1,6 +1,6 @@
-# vidrouter-node
+# VidRouter
 
-Official JavaScript / TypeScript library for the VidRouter API, the unified API for AI video generation.
+The official JavaScript library for VidRouter, the unified API for AI video generation. Works in Node.js, the browser, and other modern JS runtimes.
 
 ## Installation
 
@@ -10,16 +10,15 @@ npm install vidrouter
 
 ## Usage
 
-```typescript
+```javascript
 import { VidRouter } from "vidrouter";
 
-// Coming soon...
+const client = new VidRouter({
+  apiKey: "YOUR_API_KEY",
+});
+
 ```
 
-## Development
+## License
 
-1.  Clone the repository.
-2.  Install dependencies: `npm install`
-3.  Build the project: `npm run build`
-
-This will compile the TypeScript code into JavaScript in the `dist` directory.
+Apache-2.0
