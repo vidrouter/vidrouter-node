@@ -1,0 +1,41 @@
+{
+  "name": "vidrouter",
+  "version": "0.0.1",
+  "description": "The official JavaScript library for VidRouter, the unified API for AI video generation. Works in Node.js and the browser.",
+  "author": "VidRouter <support@vidrouter.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vidrouter/vidrouter-node.git"
+  },
+  "homepage": "https://github.com/vidrouter/vidrouter-node",
+  "keywords": [
+    "vidrouter",
+    "ai",
+    "video",
+    "generation",
+    "api",
+    "sdk"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
