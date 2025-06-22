@@ -1,6 +1,6 @@
 {
   "name": "vidrouter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The official JavaScript library for VidRouter, the unified API for AI video generation. Works in Node.js and the browser.",
   "author": "VidRouter <support@vidrouter.com>",
   "license": "Apache-2.0",
